@@ -144,7 +144,7 @@ $('#btnEntrenador').click(function (e) {
 });
 
 // Aplicando Ajax en la seccion de "Nuestro Equipo"
-const datosJSON = "http://127.0.0.1:5500/preentrega3/datos.json"
+const datosJSON = "https://nahuelrivero88.github.io/Pre-Entrega3JS/datos.json"
 
 $("#btnAjax").click(() => { 
 $.getJSON(datosJSON, function (respuesta, estado) {
